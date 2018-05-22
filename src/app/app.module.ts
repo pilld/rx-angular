@@ -12,6 +12,7 @@ import { FooterComponent } from './main/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyDashboardComponent } from './main/my-dashboard/my-dashboard.component';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule } from '@angular/material';
+import { SearchComponent } from './main/search/search.component';
 
 import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
 
@@ -25,7 +26,8 @@ import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
     PanelsComponent,
     NgComponent,
     FooterComponent,
-    MyDashboardComponent
+    MyDashboardComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,7 @@ import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
     MatCardModule,
     MatMenuModule,
     MatIconModule,
+    MatButtonModule,
     FroalaEditorModule.forRoot(), 
     FroalaViewModule.forRoot()
   ],
